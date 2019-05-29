@@ -23,6 +23,7 @@ public class PerdidaActivity extends AppCompatActivity {
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tab_layout);
 // Set the text for each tab.
         tabLayout.addTab(tabLayout.newTab().setText(R.string.tab_label5));
+
         tabLayout.addTab(tabLayout.newTab().setText(R.string.tab_label1));
         tabLayout.addTab(tabLayout.newTab().setText(R.string.tab_label2));
         tabLayout.addTab(tabLayout.newTab().setText(R.string.tab_label3));
@@ -100,20 +101,20 @@ public class PerdidaActivity extends AppCompatActivity {
 
     public void launchCasoRojo(View view) {
         Toast.makeText(this, "Entro en Codigo Rojo", Toast.LENGTH_SHORT).show();
-        Intent intent = new Intent(this, Registro.class);
+        Intent intent = new Intent(this, Hora.class);
         startActivity(intent);
     }
-
+//muestra alerta para entrar en codigo rojo
     public void onClickShowAlert(final View view) {
         AlertDialog.Builder myAlertBuilder = new
                 AlertDialog.Builder(PerdidaActivity.this);
         // Set the dialog title.
-        myAlertBuilder.setTitle("Alert");
+        myAlertBuilder.setTitle("ALERTA");
 // Set the dialog message.
-        myAlertBuilder.setMessage("Click OK to continue, or Cancel to stop:");
+        myAlertBuilder.setMessage("Esta por entrar en CODIGO ROJO. Los datos suministrados son validos:");
 
         // Add the buttons.
-        myAlertBuilder.setPositiveButton(R.string.OK, new DialogInterface.OnClickListener() {
+        myAlertBuilder.setPositiveButton(R.string.si, new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int which) {
                 // User clicked OK button.
                 Toast.makeText(getApplicationContext(), R.string.pressed_ok,
@@ -135,7 +136,7 @@ public class PerdidaActivity extends AppCompatActivity {
         // Create and show the AlertDialog.
         myAlertBuilder.show();
     }
-
+    //muestra alerta avisando el grado compensado
     public void onClickShowAviso(final View view) {
         AlertDialog.Builder myAlertBuilder = new
                 AlertDialog.Builder(PerdidaActivity.this);
@@ -202,6 +203,8 @@ public class PerdidaActivity extends AppCompatActivity {
 
         // Create and show the AlertDialog.
         myAlertBuilder.show();   }
+
+
 
 
 

@@ -26,14 +26,16 @@
         android:hint="Clave"
         android:ems="10"
         android:id="@+id/editText4"/>
+
     <Button
-        android:text="Entrar"
+        android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/button"
-        android:onClick="launchMenuActivity"
         android:background="@color/colorPrimary"
-        android:textColor="#EDE7F6"/>
+        android:onClick="launchMenuActivity"
+        android:overScrollMode="always"
+        android:text="Entrar"
+        android:textColor="#EDE7F6" />
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

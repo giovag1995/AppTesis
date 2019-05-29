@@ -63,13 +63,15 @@
                     app:cardElevation="8dp"
                     android:onClick="launchPerdidaActivity"
                     app:cardCornerRadius="8dp">
+
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:text="@string/grados_de_choque"
-                            android:textColor="@color/cardview_dark_background"
+                            android:background="@color/colorPrimary"
                             android:gravity="center"
-                            android:textSize="30sp"/>
+                            android:text="@string/grados_de_choque"
+                            android:textColor="#FFFFFF"
+                            android:textSize="30sp" />
                         <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
@@ -89,13 +91,15 @@
                     app:cardElevation="8dp"
                     app:cardCornerRadius="8dp"
                     android:onClick="launchPerdidaActivity">
+
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:text="@string/perdida"
-                            android:textColor="@color/cardview_dark_background"
+                            android:background="@color/colorPrimary"
                             android:gravity="center"
-                            android:textSize="30sp"/>
+                            android:text="@string/perdida"
+                            android:textColor="#FFFFFF"
+                            android:textSize="30sp" />
                         <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
@@ -116,13 +120,15 @@
                     app:cardCornerRadius="8dp"
                     android:onClick="launchPerdidaActivity"
                     >
+
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:text="@string/sensorio"
-                            android:textColor="@color/cardview_dark_background"
+                            android:background="@color/colorPrimaryDark"
                             android:gravity="center"
-                            android:textSize="30sp"/>
+                            android:text="@string/sensorio"
+                            android:textColor="#FFFFFF"
+                            android:textSize="30sp" />
                         <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
@@ -143,13 +149,15 @@
                     app:cardCornerRadius="8dp"
                     android:onClick="launchPerdidaActivity"
                     >
+
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:text="@string/perfusion"
-                            android:textColor="@color/cardview_dark_background"
+                            android:background="@color/colorPrimaryDark"
                             android:gravity="center"
-                            android:textSize="30sp"/>
+                            android:text="@string/perfusion"
+                            android:textColor="#FFFFFF"
+                            android:textSize="30sp" />
                         <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
@@ -169,13 +177,15 @@
                     app:cardElevation="8dp"
                     app:cardCornerRadius="8dp"
                     android:onClick="launchPerdidaActivity">
+
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:text="@string/pulso"
-                            android:textColor="@color/cardview_dark_background"
+                            android:background="#828A8A"
                             android:gravity="center"
-                            android:textSize="30sp"/>
+                            android:text="@string/pulso"
+                            android:textColor="#FFFFFF"
+                            android:textSize="30sp" />
                         <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
@@ -195,13 +205,15 @@
                     app:cardElevation="8dp"
                     app:cardCornerRadius="8dp"
                     android:onClick="launchPerdidaActivity">
+
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:text="@string/presion_arterial"
-                            android:textColor="@color/cardview_dark_background"
+                            android:background="#FF828A8A"
                             android:gravity="center"
-                            android:textSize="30sp"/>
+                            android:text="@string/presion_arterial"
+                            android:textColor="#FFFFFF"
+                            android:textSize="30sp" />
                         <ImageView
                             android:layout_width="100dp"
                             android:layout_height="100dp"
